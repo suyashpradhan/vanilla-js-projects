@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="header">Cash Register</h1>
+
+        <div class="form-column">
+            <label for="">Total Bill</label>
+            <input type="text" class="field" id="total-amount" placeholder="243">
+        </div>
+
+        <div class="form-column">
+            <label for="">Amount Recieved</label>
+            <input type="text" class="field" id="amount-recieved" placeholder="500">
+        </div>
+        <br>
+        <button class="button success-button w-100" id="calculate">Submit</button>
+
+        <ul>
+            <li><span>2000: </span> <span class="lists"></span></li>
+            <li><span>500: </span><span class="lists"></span></li>
+            <li><span>100: </span><span class="lists"></span></li>
+            <li><span>20: </span><span class="lists"></span></li>
+            <li><span>10: </span><span class="lists"></span></li>
+            <li><span>5: </span><span class="lists"></span></li>
+            <li><span>1: </span><span class="lists"></span></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
